@@ -2,13 +2,16 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
+import { LinkContainer } from "react-router-bootstrap";
 import './Navigation.css';
 
 
-function Navigation(props) {
+function Navigation() {
   return (
     <Navbar bg='light' collapseOnSelect expand='md' sticky="top" varient='light'>
-      <Navbar.Brand href="#home">My CBD Store</Navbar.Brand>
+      <LinkContainer to="/">
+        <Navbar.Brand href="#home">My CBD Store</Navbar.Brand>
+      </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -22,11 +25,13 @@ function Navigation(props) {
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Nav>
-          <Nav.Link href="#deets">Sign Up</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Log In
-      </Nav.Link>
+        <Nav activeKey={window.location.pathname}>
+          <LinkContainer to="/signup">
+            <Nav.Link>Signup</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/login">
+            <Nav.Link>Login</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
