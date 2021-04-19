@@ -8,11 +8,8 @@ const PORT = process.env.PORT || 3001;
 // require('dotenv').config()
 // const bodyParser = require('body-parser');
 
-
 // app.use(cors());
 app.use(morgan("dev"))
-
-
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -23,7 +20,6 @@ if (process.env.NODE_ENV === "production") {
 }
 // Add routes, both API and view
 app.use(routes);
-
 
 const options = {
   useNewUrlParser: true,
