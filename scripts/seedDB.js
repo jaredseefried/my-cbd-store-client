@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const db = require("../models");
-const image1 = require('../client/src/images/main-cover.jpg')
-const image2 = require('../client/src/images/main-cover.jpg')
-const image3 = require('../client/src/images/main-cover.jpg')
+// const image1 = require('../client/src/images/main-cover.jpg')
+// const image2 = require('../client/src/images/main-cover.jpg')
+// const image3 = require('../client/src/images/main-cover.jpg')
 
 mongoose.connect(
   process.env.MONGODB_CONNECTION_STRING
@@ -22,7 +22,7 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291191,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -35,7 +35,7 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291177,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -48,7 +48,7 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291184,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -61,7 +61,7 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765537,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -74,7 +74,7 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765520,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -87,7 +87,7 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765544,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -100,7 +100,7 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290767,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -113,7 +113,7 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290743,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -126,7 +126,7 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290750,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -139,7 +139,7 @@ const ProductSeed = [
     map: 38.69,
     dropship: 27.95,
     upc: 696305291054,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -152,7 +152,7 @@ const ProductSeed = [
     map: 38.69,
     dropship: 27.95,
     upc: 696305291030,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -165,7 +165,7 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305291047,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -178,7 +178,7 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305291023,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -191,7 +191,7 @@ const ProductSeed = [
     map: 116.99,
     dropship: 84.5,
     upc: 696305290774,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -204,7 +204,7 @@ const ProductSeed = [
     map: 116.99,
     dropship: 84.5,
     upc: 696305290729,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -217,7 +217,7 @@ const ProductSeed = [
     map: 90.99,
     dropship: 65,
     upc: 696305291085,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -230,7 +230,7 @@ const ProductSeed = [
     map: 90.99,
     dropship: 65,
     upc: 696305291078,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -243,7 +243,7 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764691,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -256,7 +256,7 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764738,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -269,7 +269,7 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764721,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -282,7 +282,7 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764714,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -295,7 +295,7 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290835,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -308,7 +308,7 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290842,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -321,7 +321,7 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290811,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -334,7 +334,7 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290828,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -347,7 +347,7 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765698,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -360,7 +360,7 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765704,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -373,7 +373,7 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765391,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -386,7 +386,7 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765407,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -399,7 +399,7 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290873,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -412,7 +412,7 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290880,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -425,7 +425,7 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290859,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Tincture",
@@ -438,7 +438,7 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290866,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -451,7 +451,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290903,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -464,7 +464,7 @@ const ProductSeed = [
     map: 36.62,
     dropship: 27.3,
     upc: 696305290514,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -477,7 +477,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290910,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -490,7 +490,7 @@ const ProductSeed = [
     map: 36.62,
     dropship: 27.3,
     upc: 696305290521,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -503,7 +503,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 696305290675,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -516,7 +516,7 @@ const ProductSeed = [
     map: 17.09,
     dropship: 12.35,
     upc: 802991764790,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Pet Product",
@@ -529,7 +529,7 @@ const ProductSeed = [
     map: 17.09,
     dropship: 12.35,
     upc: 802991764790,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -542,7 +542,7 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 802991765513,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -555,7 +555,7 @@ const ProductSeed = [
     map: 13.99,
     dropship: 10.4,
     upc: 802991765599,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -568,7 +568,7 @@ const ProductSeed = [
     map: 31.49,
     dropship: 22.75,
     upc: 802991765551,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -581,7 +581,7 @@ const ProductSeed = [
     map: 26.99,
     dropship: 19.5,
     upc: 802991765506,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -594,7 +594,7 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 802991765575,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -607,7 +607,7 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 802991765568,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -620,7 +620,7 @@ const ProductSeed = [
     map: 26.99,
     dropship: 19.5,
     upc: 696305290798,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -633,7 +633,7 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 696305290804,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -646,7 +646,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 696305290897,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Topical",
@@ -659,7 +659,7 @@ const ProductSeed = [
     map: 42.49,
     dropship: 32.5,
     upc: 696305290781,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -672,7 +672,7 @@ const ProductSeed = [
     map: 78.74,
     dropship: 58.5,
     upc: 696305290736,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -685,7 +685,7 @@ const ProductSeed = [
     map: 44.09,
     dropship: 31.85,
     upc: 696305291207,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -698,7 +698,7 @@ const ProductSeed = [
     map: 53.99,
     dropship: 39,
     upc: 696305290712,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -711,7 +711,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991764660,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -724,7 +724,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991764677,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -737,7 +737,7 @@ const ProductSeed = [
     map: 76.49,
     dropship: 55.25,
     upc: 802991765117,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -750,7 +750,7 @@ const ProductSeed = [
     map: 40.49,
     dropship: 29.25,
     upc: 696305291214,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -763,7 +763,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991765582,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Edibles/Softgels",
@@ -776,7 +776,7 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 802991764943,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -789,7 +789,7 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765032,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -802,7 +802,7 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765049,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -815,7 +815,7 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765025,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -828,7 +828,7 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765636,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -841,7 +841,7 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765643,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -854,7 +854,7 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765629,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -867,7 +867,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991765001,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -880,7 +880,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991765018,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Vape",
@@ -893,7 +893,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991764998,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -906,7 +906,7 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290576,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -919,7 +919,7 @@ const ProductSeed = [
     map: 31.49,
     dropship: 22.75,
     upc: 696305290583,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -932,7 +932,7 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305290590,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -945,7 +945,7 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 712392227995,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -958,7 +958,7 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 712392227988,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -971,7 +971,7 @@ const ProductSeed = [
     map: 80.99,
     dropship: 58.5,
     upc: 712392227971,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -984,7 +984,7 @@ const ProductSeed = [
     map: 22.49,
     dropship: 16.25,
     upc: 712392228039,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -997,7 +997,7 @@ const ProductSeed = [
     map: 50.39,
     dropship: 36.4,
     upc: 712392228022,
-    images: [image1, image2, image3]
+
   },
   {
     type: "Concentrates",
@@ -1010,13 +1010,13 @@ const ProductSeed = [
     map: 121.49,
     dropship: 87.75,
     upc: 712392228015,
-    images: [image1, image2, image3]
+
   }
 ]
 
-db.Product
+db.ProductCatalog
   .remove({})
-  .then(() => db.Product.collection.insertMany(ProductSeed))
+  .then(() => db.ProductCatalog.collection.insertMany(ProductSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
