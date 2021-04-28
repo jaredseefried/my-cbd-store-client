@@ -10,7 +10,7 @@ function Navigation() {
   return (
     <Navbar bg='light' collapseOnSelect expand='md' sticky="top" varient='light'>
       <LinkContainer to="/">
-        <Navbar.Brand href="#home">My CBD Store</Navbar.Brand>
+        <Navbar.Brand href="#home">My CBD Corner Store</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

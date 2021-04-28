@@ -22,20 +22,24 @@ const ProductCatalogSchema = new Schema({
     type: String
   },
   msrp: {
-    type: Schema.Types.Decimal128
+    type: Number
   },
   map: {
-    type: Schema.Types.Decimal128
+    type: Number
   },
   dropship: {
-    type: Schema.Types.Decimal128
+    type: Number
   },
   upc: {
     type: Number
   },
   images: {
     type: Array
-  }
+  },
+  description: {
+    type: String
+  },
+
 })
 const ProductCatalog = mongoose.model("ProductCatalog", ProductCatalogSchema)
 

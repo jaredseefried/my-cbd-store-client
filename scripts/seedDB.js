@@ -22,7 +22,8 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291191,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -35,7 +36,8 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291177,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -48,7 +50,8 @@ const ProductSeed = [
     map: 37.79,
     dropship: 27.3,
     upc: 696305291184,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -61,7 +64,8 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765537,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -74,7 +78,8 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765520,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -87,7 +92,8 @@ const ProductSeed = [
     map: 74.37,
     dropship: 55.25,
     upc: 802991765544,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -100,7 +106,8 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290767,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -113,7 +120,8 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290743,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -126,7 +134,8 @@ const ProductSeed = [
     map: 127.49,
     dropship: 97.5,
     upc: 696305290750,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -139,7 +148,8 @@ const ProductSeed = [
     map: 38.69,
     dropship: 27.95,
     upc: 696305291054,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -152,7 +162,8 @@ const ProductSeed = [
     map: 38.69,
     dropship: 27.95,
     upc: 696305291030,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -165,7 +176,8 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305291047,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -178,7 +190,8 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305291023,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -191,7 +204,8 @@ const ProductSeed = [
     map: 116.99,
     dropship: 84.5,
     upc: 696305290774,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -204,7 +218,8 @@ const ProductSeed = [
     map: 116.99,
     dropship: 84.5,
     upc: 696305290729,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -217,7 +232,8 @@ const ProductSeed = [
     map: 90.99,
     dropship: 65,
     upc: 696305291085,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -230,7 +246,8 @@ const ProductSeed = [
     map: 90.99,
     dropship: 65,
     upc: 696305291078,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -243,7 +260,8 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764691,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -256,7 +274,8 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764738,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -269,7 +288,8 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764721,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -282,7 +302,8 @@ const ProductSeed = [
     map: 26.24,
     dropship: 19.5,
     upc: 802991764714,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -295,7 +316,8 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290835,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -308,7 +330,8 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290842,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -321,7 +344,8 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290811,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -334,7 +358,8 @@ const ProductSeed = [
     map: 33.24,
     dropship: 24.7,
     upc: 696305290828,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -347,7 +372,8 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765698,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -360,7 +386,8 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765704,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -373,7 +400,8 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765391,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -386,7 +414,8 @@ const ProductSeed = [
     map: 64.49,
     dropship: 48.75,
     upc: 802991765407,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -399,7 +428,8 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290873,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -412,7 +442,8 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290880,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -425,7 +456,8 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290859,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Tincture",
@@ -438,7 +470,8 @@ const ProductSeed = [
     map: 84.99,
     dropship: 65,
     upc: 696305290866,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -451,7 +484,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290903,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -464,7 +498,8 @@ const ProductSeed = [
     map: 36.62,
     dropship: 27.3,
     upc: 696305290514,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -477,7 +512,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290910,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -490,7 +526,8 @@ const ProductSeed = [
     map: 36.62,
     dropship: 27.3,
     upc: 696305290521,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -503,7 +540,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 696305290675,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -516,7 +554,8 @@ const ProductSeed = [
     map: 17.09,
     dropship: 12.35,
     upc: 802991764790,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Pet Product",
@@ -529,7 +568,8 @@ const ProductSeed = [
     map: 17.09,
     dropship: 12.35,
     upc: 802991764790,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -542,7 +582,8 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 802991765513,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -555,7 +596,8 @@ const ProductSeed = [
     map: 13.99,
     dropship: 10.4,
     upc: 802991765599,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -568,7 +610,8 @@ const ProductSeed = [
     map: 31.49,
     dropship: 22.75,
     upc: 802991765551,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -581,7 +624,8 @@ const ProductSeed = [
     map: 26.99,
     dropship: 19.5,
     upc: 802991765506,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -594,7 +638,8 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 802991765575,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -607,7 +652,8 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 802991765568,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -620,7 +666,8 @@ const ProductSeed = [
     map: 26.99,
     dropship: 19.5,
     upc: 696305290798,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -633,7 +680,8 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 696305290804,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -646,7 +694,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 696305290897,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Topical",
@@ -659,7 +708,8 @@ const ProductSeed = [
     map: 42.49,
     dropship: 32.5,
     upc: 696305290781,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -672,7 +722,8 @@ const ProductSeed = [
     map: 78.74,
     dropship: 58.5,
     upc: 696305290736,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -685,7 +736,8 @@ const ProductSeed = [
     map: 44.09,
     dropship: 31.85,
     upc: 696305291207,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -698,7 +750,8 @@ const ProductSeed = [
     map: 53.99,
     dropship: 39,
     upc: 696305290712,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -711,7 +764,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991764660,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -724,7 +778,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991764677,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -737,7 +792,8 @@ const ProductSeed = [
     map: 76.49,
     dropship: 55.25,
     upc: 802991765117,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -750,7 +806,8 @@ const ProductSeed = [
     map: 40.49,
     dropship: 29.25,
     upc: 696305291214,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -763,7 +820,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 802991765582,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Edibles/Softgels",
@@ -776,7 +834,8 @@ const ProductSeed = [
     map: 44.99,
     dropship: 32.5,
     upc: 802991764943,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -789,7 +848,8 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765032,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -802,7 +862,8 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765049,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -815,7 +876,8 @@ const ProductSeed = [
     map: 22.5,
     dropship: 16.25,
     upc: 802991765025,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -828,7 +890,8 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765636,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -841,7 +904,8 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765643,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -854,7 +918,8 @@ const ProductSeed = [
     map: 43.19,
     dropship: 31.2,
     upc: 802991765629,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -867,7 +932,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991765001,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['', '']
   },
   {
     type: "Vape",
@@ -880,7 +946,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991765018,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Vape",
@@ -893,7 +960,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 802991764998,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -906,7 +974,8 @@ const ProductSeed = [
     map: 17.99,
     dropship: 13,
     upc: 696305290576,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -919,7 +988,8 @@ const ProductSeed = [
     map: 31.49,
     dropship: 22.75,
     upc: 696305290583,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -932,7 +1002,8 @@ const ProductSeed = [
     map: 67.49,
     dropship: 48.75,
     upc: 696305290590,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -945,7 +1016,8 @@ const ProductSeed = [
     map: 20.69,
     dropship: 14.95,
     upc: 712392227995,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -958,7 +1030,8 @@ const ProductSeed = [
     map: 35.99,
     dropship: 26,
     upc: 712392227988,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -971,7 +1044,8 @@ const ProductSeed = [
     map: 80.99,
     dropship: 58.5,
     upc: 712392227971,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -984,7 +1058,8 @@ const ProductSeed = [
     map: 22.49,
     dropship: 16.25,
     upc: 712392228039,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -997,7 +1072,8 @@ const ProductSeed = [
     map: 50.39,
     dropship: 36.4,
     upc: 712392228022,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   },
   {
     type: "Concentrates",
@@ -1010,7 +1086,8 @@ const ProductSeed = [
     map: 121.49,
     dropship: 87.75,
     upc: 712392228015,
-
+    description: 'This is a product description. I am telling the customer about the product and any other details that would be necessary.',
+    images: ['']
   }
 ]
 

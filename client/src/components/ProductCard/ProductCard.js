@@ -1,16 +1,26 @@
 import React from 'react';
+
+// React Bootstrap
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+
+// Images
+import srcImage from '../../images/main-cover.jpg'
+
+// CSS
+import './ProductCard.css'
 
 function ProductCard(props) {
   return (
-    <Card border="primary" style={{ width: '18rem' }}>
-      <Card.Header>{props.title}</Card.Header>
+    <Card style={{ width: '18rem' }}>
+      <Card.Header>{props.type}</Card.Header>
+      <Card.Img variant="top" src={srcImage} />
       <Card.Body>
         <Card.Title>{props.brand}</Card.Title>
-        <Card.Text>
-          {props.size}
-          {props.msrp}
-        </Card.Text>
+        <Card.Text>{props.description}</Card.Text>
+        <Card.Text>Flavor: {props.flavor}</Card.Text>
+        <Card.Text>${props.price}</Card.Text>
+        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
   );
