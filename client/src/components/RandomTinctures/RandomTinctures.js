@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
 // CSS
-import './ProductList.css'
+import './RandomTinctures.css'
 
 // Components
 import ProductCard from '../ProductCard/ProductCard'
@@ -13,16 +13,11 @@ import ProductCard from '../ProductCard/ProductCard'
 // API 
 import API from '../../utils/API'
 
-// Full Catalog List - Functional Component 
-const ProductList = () => {
-
-  // useState Hook
+const RandomTinctures = (props) => {
   const [catalog, setCatalog] = useState([])
-
-  // useEffect Hook - Load Product catalog on Mount
   useEffect(() => {
     // getCatalog();
-    randomProducts()
+    randomTinctures()
   }, []);
 
   // GET the catalog list from the database
@@ -38,20 +33,24 @@ const ProductList = () => {
       })
   }
 
-  const randomProducts = () => {
+  const randomTinctures = () => {
     API.getProductCatalog()
       .then((response) => {
         // Take the response from the API (the data you requested)
         const data = response.data
-        const randomCBD = data.sort(() => Math.random() - Math.random()).slice(0, 8)
+        const filteredType = data.filter((object) => {
+          return object.type === 'Tincture'
+        })
+        const tinctureCBD = filteredType.sort(() => Math.random() - Math.random()).slice(0, 8)
         // console.log(randomCBD);
-        setCatalog(randomCBD)
+        setCatalog(tinctureCBD)
 
       })
   }
 
+
   return (
-    <Container className="catalog-list-container">
+    <Container className="random-tinctures-container">
       <Row className="justify-content-md-center">
         {catalog.map((item) => (
           <ProductCard
@@ -71,4 +70,4 @@ const ProductList = () => {
   );
 }
 
-export default ProductList;
+export default RandomTinctures;
